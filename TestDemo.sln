@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{789E99BC-E3CF-4B17-8099-0718ABB095B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.IntegrationTests", "Api.IntegrationTests\Api.IntegrationTests.csproj", "{DD226351-EE4E-417C-A0BA-C0BB3187CB0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{35B7BD89-36C3-4F4F-96BA-A979C07D9D07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{789E99BC-E3CF-4B17-8099-0718ABB095B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{789E99BC-E3CF-4B17-8099-0718ABB095B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{789E99BC-E3CF-4B17-8099-0718ABB095B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{789E99BC-E3CF-4B17-8099-0718ABB095B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD226351-EE4E-417C-A0BA-C0BB3187CB0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD226351-EE4E-417C-A0BA-C0BB3187CB0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD226351-EE4E-417C-A0BA-C0BB3187CB0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD226351-EE4E-417C-A0BA-C0BB3187CB0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B7BD89-36C3-4F4F-96BA-A979C07D9D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B7BD89-36C3-4F4F-96BA-A979C07D9D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B7BD89-36C3-4F4F-96BA-A979C07D9D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B7BD89-36C3-4F4F-96BA-A979C07D9D07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17E3BE1E-2342-4E61-8ACD-52E197EF9FED}
+	EndGlobalSection
+EndGlobal
